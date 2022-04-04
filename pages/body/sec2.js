@@ -100,7 +100,7 @@ function Section2() {
   </Carousel> 
 
   </div>
-  <button type='radio' className="border text-white border-gray-200 rounded-md p-2 hover:text-white hover:bg-indigo" onClick={()=>{setArrow(!arrow)}}></button>
+  {/* <button type='radio' className="border text-white border-gray-200 rounded-md p-2 hover:text-white hover:bg-indigo" onClick={()=>{setArrow(!arrow)}}></button> */}
     </div>
   )
 }
