@@ -25,7 +25,7 @@ menu=<div className="fixed top-[71.9px] bg-black bg-opacity-40 backdrop-blur-3xl
           <Link href="/">
             <a
              
-              className=" text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
+              className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
             >
               College
             </a>
