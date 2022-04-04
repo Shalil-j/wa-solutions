@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import {RemoveScroll} from 'react-remove-scroll/UI'
 import Section1 from './body/sec1'
 import Section2 from './body/sec2'
 import Section3 from './body/sec3'
