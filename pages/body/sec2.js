@@ -37,8 +37,8 @@ function Section2() {
   };
 
   return (
-    <div className='border-t-2 text-center mt-10  h-60'>
-        <h1 className="uppercase font-bold text-slate-500 mt-5">Trusted by TOP Organization</h1>
+    <div className=' text-center mt-48 md:mt-0  h-60'>
+        <h1 className="uppercase text-base md:text-xl font-bold text-slate-500 mt-5">Trusted by TOP Organization</h1>
         <div className='mt-10 p-10'>
         <Carousel responsive={responsive}
         
@@ -100,7 +100,7 @@ function Section2() {
   </Carousel> 
 
   </div>
-  {/* <button type='radio' className="border text-white border-gray-200 rounded-md p-2 hover:text-white hover:bg-indigo" onClick={()=>{setArrow(!arrow)}}></button> */}
+  <button type='radio' className="border text-white border-gray-200 rounded-md p-2 hover:text-white hover:bg-indigo" onClick={()=>{setArrow(!arrow)}}></button>
     </div>
   )
 }

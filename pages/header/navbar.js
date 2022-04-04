@@ -9,7 +9,7 @@ function Navbar() {
  const [showMenu,setShowMenu]=useState(false)
  let menu
  if(showMenu){
-menu=<div className="fixed top-[71.9px] bg-black bg-opacity-40 backdrop-blur-3xl h-auto z-50 w-full font-semibold md:hidden">
+menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibold md:hidden">
    <ul className='p-3 space-y-5'>
           <li className="active">
             <Link href="/">
@@ -72,7 +72,7 @@ menu=<div className="fixed top-[71.9px] bg-black bg-opacity-40 backdrop-blur-3xl
   return (
     <>
     {/* // <!-- Navbar goes here --> */}
-    <nav className="bg-black bg-opacity-40 backdrop-blur-3xl fixed w-full z-40">
+    <nav className="bg-black fixed w-full z-40">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex space-x-10">

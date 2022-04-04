@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "netlify": "netlify",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,7 +16,9 @@
     "react-icons": "^4.3.1",
     "react-leaf-carousel": "^3.0.0",
     "react-multi-carousel": "^2.8.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-remove-scroll": "^2.4.4",
+    "react-responsive-carousel": "^3.2.23",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",

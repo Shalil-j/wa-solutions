@@ -15,13 +15,13 @@ function Section6() {
   return (
 
     <div className=''>
-        <h1 className='text-3xl text-center font-semibold mt-5 '>Reviews</h1>
-        <Carousel labels='' infiniteLoop='true' autoPlay='true'interval="5000" width='80' transitionTime='2000' 
+        <h1 className='text-lg md:text-3xl text-center font-semibold mt-5 '>Reviews</h1>
+        <Carousel labels='false' infiniteLoop='true' autoPlay='true'interval="5000" width='80' transitionTime='2000' 
         showArrows='false' showStatus='false' autoFocus='true' showIndicators='false' showThumbs='false'>
     {comments.map((com)=>{
         return(
-            <div key={com.name} className=' h-60 mt-10 pb-10'>
-                <div className='bg-white shadow-xl  border inline-block align-middle p-3 w-1/3  rounded-xl'>
+            <div key={com.name} className='h-auto md:h-60 mt-10 pb-10'>
+                <div className='bg-white shadow-xl  border inline-block align-middle w-80 p-3 md:w-1/3  rounded-xl'>
             <p className="text-sm font-thin text-left  ">{com.comments}</p>
             <p className='font-semibold inline-block text-right'>{com.name}</p><br/>
             <p className='text-xs inline-block align-bottom text-right'>{com.date}</p>
