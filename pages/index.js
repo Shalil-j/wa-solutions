@@ -1,11 +1,5 @@
 import Head from 'next/head'
-import Section1 from './body/sec1'
-import Section2 from './body/sec2'
-import Section3 from './body/sec3'
-import Section4 from './body/sec4'
-import Section5 from './body/sec5'
-import Section6 from './body/sec6'
-import Section7 from './body/sec7'
+import Homepage from './home/home'
 import Footer from './header/footer'
 import Navbar from './header/navbar'
 import logo from './assets/logo.png'
@@ -22,13 +16,7 @@ export default function Home() {
       </Head>
     <Navbar className='fixed z-auto'/>
     <div className='scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100' >
-    <Section1/>
-    <Section2/>
-    <Section3/>
-    <Section4/>
-    <Section5/>
-    <Section6/>
-    <Section7/>
+    <Homepage/>
     <Footer/>
     </div>
     </div>
