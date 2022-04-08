@@ -19,15 +19,3 @@ const NotFound=()=>{
     )
 }
 export default NotFound
-{/* <div className='text-center pt-20'>
-<h1 className='text-[200px] text-indigo-700 font-extrabold'>404</h1>
-<p className='font-semibold text-lg'>Page not Found</p>
-<p className='font-semibold text-lg'>Go back to<Link href='/' className='hover:text-indigo-900'> HOME</Link></p>
-</div> */}
-
-
-{/* <Lottie
-      loop
-      animationData={Error}
-      play
-    /> */}
