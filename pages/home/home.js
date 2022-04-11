@@ -6,6 +6,7 @@ import Section4 from './sec4'
 import Section5 from './sec5'
 import Section6 from './sec6'
 import Section7 from './sec7'
+import Footer from '../header/footer'
 
 function Homepage() {
   return (
@@ -17,6 +18,7 @@ function Homepage() {
         <Section5/>
         <Section6/>
         <Section7/>
+        <Footer/>
     </div>
   )
 }

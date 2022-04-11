@@ -1,16 +1,17 @@
 import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
 import React from "react";
 import Lottie from 'react-lottie-player'
-import BE from '../../assets/BE.json'
+import BE from '../assets/BE.json'
 import Sec1 from './besec1';
 import Sec2 from './fssec2';
+import Footer from '../header/footer'
 
 function Backendjava() {
   return (
     <div>
-      <div className='w-full h-16'></div>
+      <div className=' w-full h-16'></div>
       <div className='flex '> 
-        <div className='w-1/2 space-y-1 p-14 pt-20'>
+        <div className='lg:w-1/2 space-y-1 p-14 pt-20'>
         <p className='text-sm text-gray-400'>Pay Rs 0 untill you get placed</p>
         <h1 className='text-xl font-bold text-indigo-900 '>Guaranteed Job with a CTC of 5+ LPA</h1>
         <h2 className='text-5xl font-bold text-indigo-700'>Backend Developer Program</h2>
@@ -20,7 +21,7 @@ function Backendjava() {
         <a className='bg-indigo-700 px-5 course-pointer flex text-white font-semibold py-4 text-center rounded-full'> Register Now
          <HiOutlineArrowNarrowRight className='h-7 w-10'/></a>
         </div>   
-        <div className='right-0 w-1/2 absolute top-0'>
+        <div className='invisible lg:visible right-0 w-1/2 absolute top-0'>
         <Lottie
       loop
       animationData={BE}
@@ -31,6 +32,7 @@ function Backendjava() {
         </div>  
     <Sec1/>
     <Sec2/>
+    <Footer/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import { BsLinkedin,BsFacebook } from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className='md:flex mt-14 items-center justify-between p-10 md:p-14'>
+    <div className='md:flex mt-14 items-center justify-between p-10 md:p-14 bottom-0'>
         <div className='text-base text-slate-500 font-normal'>
             <p>
             &#169; WA Soultions</p>
