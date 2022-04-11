@@ -2,6 +2,7 @@ import React from 'react'
 
 function Sec1() {
   return (
+    
     <div>
       <div className='text-center mt-28'>
       <h1 className='text-3xl md:text-5xl font-bold text-indigo-700'>The path to your success</h1>
