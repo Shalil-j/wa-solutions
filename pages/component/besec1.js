@@ -4,9 +4,9 @@ function Sec1() {
   return (
     <div>
       <div className='text-center mt-28'>
-      <h1 className='text-5xl font-bold text-indigo-700'>The path to your success</h1>
-      <p className='text-base mt-1 text-gray-400 font-semibold'>Join the skill-based learning programs at IA Labs and launch your career in the technology industry.</p>
-      <div className='flex space-x-5 justify-between pt-10 md:p-10 rounded-xl  md:ml-14 md:mr-14 p-3 shadow-xl'>
+      <h1 className='text-3xl md:text-5xl font-bold text-indigo-700'>The path to your success</h1>
+      <p className='text-sm md:text-base mt-1 text-gray-400 font-semibold'>Join the skill-based learning programs at IA Labs and launch your career in the technology industry.</p>
+      <div className='flex space-x-5 justify-between pt-10 md:p-10 m-5 rounded-xl  md:ml-14 md:mr-14 p-3 shadow-xl'>
         <p className='text-xs md:text-lg font-medium text-gray-400'>Program Duration<br /><span className='text-xl md:text-4xl font-extrabold text-indigo-700'>16 Weeks</span></p>
         <p className='text-xs md:text-lg font-medium text-gray-400' >Class Schedule<br /><span className='text-xl md:text-4xl font-extrabold text-indigo-700'>8 PM - 11 PM</span></p>
         <p className='text-xs md:text-lg font-medium text-gray-400'>Delivery Mode<br /><span className='text-xl md:text-4xl font-extrabold text-indigo-700'>Online</span></p>
