@@ -52,7 +52,7 @@ function Sec1() {
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Java Syntax</li>
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Classes</li>
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Inheritance</li>
-          <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Interfaces</li>
+
 
         
         </ul>
@@ -75,7 +75,7 @@ function Sec1() {
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>OOPs</li>
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>JSON</li>
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Consuming REST API</li>
-          <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Refactoring</li>
+         
       
         </ul>
         </div>
