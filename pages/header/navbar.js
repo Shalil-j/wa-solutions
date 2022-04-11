@@ -6,6 +6,8 @@ import Logo from '../assets/logo.png'
 import {useRouter} from "next/router";
 
 
+
+
 function Navbar() {
  const [showMenu,setShowMenu]=useState(false)
  let menu
@@ -13,17 +15,24 @@ function Navbar() {
 menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibold md:hidden">
    <ul className='p-3 space-y-5'>
           <li className="active">
-            <Link href="/">
+            
             <a
              
               className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
             >
               Programs
+              <div className='pt-10 pl-7'>
+              <Link href='../component/fullstack'><a className='hover:text-indigo-400'> Full Stack Developer Program<br /> </a></Link>
+            
+                <Link href="../component/backend">
+                <a className='mt-2 hover:text-indigo-400'>Backend Java Developer Program</a>
+                </Link>
+              </div>
             </a>
-            </Link>
+            
           </li>
           <li>
-          <Link href="/">
+          <Link href="../component/college">
             <a
              
               className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
@@ -34,27 +43,14 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
           </li>
           
           <li>
-          <Link href="/">
-            <a
-              
-              className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
-            >
-              PIET
-            </a>
-            </Link>
+
           </li>
           <li>
-          <Link href="/">
-            <a
-              
-              className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
-            >
-              View Jobs
-            </a>
-            </Link>
+
+
           </li>
           <li>
-          <Link href="/">
+          <Link href="../component/signup">
           <a
              
               className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
@@ -73,13 +69,14 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
   return (
     <>
     {/* // <!-- Navbar goes here --> */}
-    <nav className="bg-black fixed w-full z-40">
+    <nav className="bg-black fixed w-full z-40 top-0 ">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex space-x-10">
-            <div onClick={()=>router.push('/')}>
+            <div>
+              <Link href='/'>
               {/* <!-- Website Logo --> */}
-              <a href="#" className="flex items-center py-4 px-2">
+              <a className="flex items-center py-4 px-2">
                 <Image
                   src={Logo}
                   alt="logo"
@@ -91,16 +88,17 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
                   WASolutions
                 </span>
               </a>
+              </Link>
             </div>
             {/* <!-- Primary Navbar items --> */}
             <div className="hidden md:flex  items-center space-x-5">
-            <div class="group inline-block relative">
+            <div className ="group inline-block relative">
         <button
-          class=" text-gray-400 hover:text-white font-semibold py-2 px-4 rounded inline-flex items-center"
+          className=" text-gray-400 hover:text-white font-semibold py-2 px-4 rounded inline-flex items-center"
         >
-          <span class="mr-1">Programs</span>
+          <span className="mr-1">Programs</span>
           <svg
-            class="fill-current h-4 w-4"
+            className="fill-current h-4 w-4"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
           >
@@ -109,10 +107,10 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
             />
           </svg>
         </button>
-        <ul class="absolute hidden text-gray-700 pt-1 w-80 group-hover:block">
-        <Link href='../component/program/fullstack'>
+        <ul className="absolute hidden text-gray-700 pt-1 w-80 group-hover:block">
+        <Link href='../component/fullstack'>
             <a
-              class="rounded-t text-lg font-bold text-black bg-white hover:text-indigo-700 py-2 px-4 block whitespace-no-wrap"
+              className="rounded-t text-lg font-bold text-black bg-white hover:text-indigo-700 py-2 px-4 block whitespace-no-wrap"
               href="#"
               >Full Stack Developer Program
               <p className="text-xs font-normal text-gray-700">
@@ -120,9 +118,9 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
               </p>
               </a>
               </Link>
-          <Link href='../component/program/backend'>
+          <Link href='../component/backend'>
             <a
-              class="rounded-b bg-white text-lg font-bold text-black hover:text-indigo-700 py-2 px-4 block whitespace-no-wrap"
+              className="rounded-b bg-white text-lg font-bold text-black hover:text-indigo-700 py-2 px-4 block whitespace-no-wrap"
               href="#"
               >Backend Java Developer Program
               <p className='text-xs font-normal text-gray-700'>
@@ -133,7 +131,7 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
       </div>
 
               
-              <Link href="../component/college/college">
+              <Link href="../component/college">
               <a
               
                 className="py-4 px-2 text-gray-400 font-semibold hover:text-white transition duration-300"
@@ -141,14 +139,7 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
              College
               </a>
               </Link>
-              <Link href="../component/jobs/job">
-              <a
-             
-                className="py-4 px-2 text-gray-400 font-semibold hover:text-white transition duration-300"
-              >
-                View Jobs
-              </a>
-              </Link>
+              
             </div>
           </div>
 
