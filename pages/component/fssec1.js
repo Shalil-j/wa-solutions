@@ -87,7 +87,7 @@ function Sec1() {
         <ul className='text-xs md:text-sm flex  mt-2 md:space-x-4'>
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Component</li>
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Component lifecycle</li>
-          <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Component state management</li>
+
           <li className='font-mono md:font-semibold md:bg-indigo-200 md:p-1 rounded-full px-2'>Component styling</li>
           
         </ul>
