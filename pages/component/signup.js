@@ -65,7 +65,7 @@ function Signup() {
               </button>
 
               <div className="mt-4 text-center">
-                <p className="text-sm">Don't have an account yet? <a href="#"
+                <p className="text-sm">Don&#39;t have an account yet? <a href="#"
                     className="text-blue-600 hover:underline"> Sign up.</a></p>
               </div>
             </div>
