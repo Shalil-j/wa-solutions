@@ -30,7 +30,7 @@ function Backendjava() {
     />
         </div>
         </div>  
-    <Sec1/>
+    <Sec1 className='w-full'/>
     <Sec2/>
     <Footer/>
     </div>
