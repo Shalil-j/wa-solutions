@@ -61,7 +61,7 @@ card1=<div className='mx-auto space-y-5 h-auto md:space-y-0 w-80 md:w-auto md:gr
   </div>
 
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-hidden'>
     <div className='text-center h-auto bg-indigo-700 mt-10 '>
         <h1 className='text-3xl sm:text-4xl md:text-5xl pt-10 font-bold text-white'>Flat pricing, No percentage, No Problems</h1>
         <p className='text-sm p-5 sm:text-base text-gray-300 mt-1'>You pay according to the package you get when you get placed in easy monthly</p>

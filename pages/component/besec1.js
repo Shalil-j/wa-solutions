@@ -3,7 +3,7 @@ import React from 'react'
 function Sec1() {
   return (
     
-    <div>
+    <div className='overflow-hidden'>
       <div className='text-center mt-28'>
       <h1 className='text-3xl md:text-5xl font-bold text-indigo-700'>The path to your success</h1>
       <p className='text-sm md:text-base mt-1 text-gray-400 font-semibold'>Join the skill-based learning programs at IA Labs and launch your career in the technology industry.</p>
