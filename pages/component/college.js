@@ -46,7 +46,7 @@ function College() {
   <p className='text-sm'>Foundations of Data Structures and Algorithms</p>
   <button className='bg-indigo-500 text-white font-medium  w-full mt-2 rounded-md'>150+ hours of live classes</button>
   <div className='mt-3'>
-    <p className='border-t-2 font-bold text-sm'>WHAT'S INCLUDED</p>
+    <p className='border-t-2 font-bold text-sm'>WHAT&#39;S INCLUDED</p>
     <ul className='space-y-3 mt-5'>
       <li className='text-gray-500 text-sm flex text-center'><AiOutlineCheck/>Arrays</li>
       <li className='text-gray-500 text-sm flex text-center'><AiOutlineCheck/>Basic Maths</li>
