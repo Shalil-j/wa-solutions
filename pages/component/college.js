@@ -33,20 +33,7 @@ function College() {
 </div>
 </div>
 
-{/* <div className='lg:flex'>
 
-<div className='left-10 top-28 sm:top-20 md:top-40 md:left-64 lg:top-0 lg:left-0 lg:relative lg:mt-32 text-center z-10'>
-<h1 className='text-4xl sm:text-5xl font-extrabold'>Make your Campus</h1>
-<h1 className='text-4xl sm:text-5xl  font-extrabold text-indigo-700'>Industry-Ready</h1>
-<p className='text-base font-medium text-gray-400'>We help your students crack jobs at<br />
-  <span className='text-gray-700'>Top Product Companies </span>with <span className='text-indigo-700'>CTC upto 35 Lakhs
-    </span></p>
-    <div className='pt-5 space-x-5 text-base font-semibold text-white '>
-      <button className='bg-indigo-500 hover:bg-indigo-800 px-6 py-5 rounded-lg transition duration-300'>Get In Touch</button>
-      <button className='bg-indigo-200 px-6 py-5 rounded-lg hover:bg-indigo-400 transition duration-300 '>Join Slack</button>
-    </div>
-</div>
-</div> */}
 {/* sec1 */}
 <div className='mt-40 md:mt-80 lg:mt-10 text-left p-5 md:text-center '>
 <h1 className='text-2xl md:text-4xl font-bold'>Our Curriculum will help you create impact</h1>
