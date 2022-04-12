@@ -11,7 +11,7 @@ function Section5() {
         <p className='text-center mt-3 text-xs pl-5 pr-5 md:text-base font-semibold text-slate-300'>Accelerate the learning journey of your employees to give them knowledge of latest technologies going on in market.</p>
         
         
-        <div className='flex flex-col p-5 sm:grid sm:pl-5 sm:pr-5 sm:grid-row-4  sm:grid-flow-col md:pl-10  md:pr-5 md:pt-5 pb-10 gap-4 lg:pl-24 lg:pr-24'>
+        <div className='flex flex-col p-5 space-y-5 sm:space-y-0 sm:grid sm:pl-5 sm:pr-5 sm:grid-row-4  sm:grid-flow-col md:pl-10  md:pr-5 md:pt-5 pb-10 gap-4 lg:pl-24 lg:pr-24'>
 
         <div className='bg-white bg-opacity-30 sm:w-auto h-auto item-center text-center justify-center rounded-xl p-3'>
           <AiOutlineQrcode className='w-10 h-10 p-1  text-white  '/>
