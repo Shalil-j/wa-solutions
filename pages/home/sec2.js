@@ -12,7 +12,7 @@ import l5 from '../assets/5.png'
 function Section2() {
   
   return (
-    <div className=' text-center mt-28 md:mt-0 mx-auto  h-auto'>
+    <div className=' text-center mt-40 md:mt-0 mx-auto  h-auto'>
         <h1 className="uppercase text-base md:text-xl font-bold text-slate-500 mt-5">Trusted by TOP Organization</h1>
         <div className='mt-10 p-10'>
   <div className='grid grid-cols-2 gap-4 grid-flow-row
