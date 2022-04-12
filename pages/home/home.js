@@ -10,7 +10,7 @@ import Footer from '../header/footer'
 
 function Homepage() {
   return (
-    <div>
+    <div className='mx-auto w-full'>
         <Section1/>
         <Section2/>
         <Section3/>
