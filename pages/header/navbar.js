@@ -21,7 +21,7 @@ menu=<div className="fixed top-[71.9px] bg-black  h-auto z-50 w-full font-semibo
               className="block text-base px-10 py-4 text-white hover:bg-zinc-700 rounded-2xl  font-semibold "
             >
               Programs
-              <div className='pt-10 pl-7'>
+              <div className='pt-3 pl-7'>
               <Link href='../component/fullstack'><a className='hover:text-indigo-400'> Full Stack Developer Program<br /> </a></Link>
             
                 <Link href="../component/backend">
