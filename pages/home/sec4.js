@@ -7,7 +7,7 @@ import {BsStars} from 'react-icons/bs';
 
 function Section4() {
   return (
-    <div className='mt-[510px] md:mt-52'>
+    <div className='mx-auto mt-[510px] md:mt-52'>
         <div>
         <h1 className='text-lg  md:text-5xl text-center font-extrabold'>Learning Programs</h1>
         <p className='text-sm md:text-lg text-center p-4 text-slate-500 md:pl-40 md:pr-40 md:mt-5'>Deploy customized digital learning solutions that enable a holistic approach to learning & 

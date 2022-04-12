@@ -7,7 +7,7 @@ import {GoSettings} from 'react-icons/go';
 
 function Section3() {
   return (
-    <div className="h-60 mt-14 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-center">
+    <div className="h-60 mx-auto mt-14 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-center">
         <h1 className="text-lg md:text-2xl font-bold text-white pt-5">Learn Soultion</h1>
         <p className="text-sm md:text-base font-normal text-slate-300 md:pl-40 md:pr-40">We leverage state of the art Learning Platform and Industry-leading expertise to deliver impactful talent building &amp; training ecosystem that fuels your business outcomes.</p>
         

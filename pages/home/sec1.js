@@ -4,7 +4,7 @@ import BG from '../assets/bg1.jpg'
 
 function Section1() {
   return (
-    <div className='scrollbar-hide'>
+    <div className='mx-auto'>
         <div className="invisible md:visible bg-fixed w-full">
 
  <Image

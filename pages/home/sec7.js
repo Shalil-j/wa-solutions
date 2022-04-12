@@ -5,7 +5,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 function Section7() {
   return (
 
-    <div className="flex-col bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 h-auto md:flex md:flex-row">
+    <div className="flex-col mx-auto bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 h-auto md:flex md:flex-row">
       <div className=" md:w-1/2 mt-5 p-10">
         <h1 className='text-xl md:text-3xl text-white font-semibold'>Reach Us Out</h1>
         <p className='text-sm md:text-xl text-white'>

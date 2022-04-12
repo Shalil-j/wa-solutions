@@ -20,7 +20,7 @@ function Section6() {
         showArrows='false' showStatus='false' autoFocus='true' showIndicators='false' showThumbs='false'>
     {comments.map((com)=>{
         return(
-            <div key={com.name} className='h-auto md:h-60 mt-10 pb-10'>
+            <div key={com.name} className='h-auto mx-auto md:h-60 mt-10 pb-10'>
                 <div className='bg-white shadow-xl  border inline-block align-middle w-80 p-3 md:w-1/3  rounded-xl'>
             <p className="text-sm font-thin text-left  ">{com.comments}</p>
             <p className='font-semibold inline-block text-right'>{com.name}</p><br/>

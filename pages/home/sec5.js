@@ -6,7 +6,7 @@ import {AiFillPieChart} from 'react-icons/ai';
 
 function Section5() {
   return (
-    <div  className='bg-gradient-to-r from-rose-700 to-indigo-700 h-auto w-full'>
+    <div  className='bg-gradient-to-r mx-auto from-rose-700 to-indigo-700 h-auto w-full'>
         <h1 className='text-xl pl-10  pr-10 md:p-1 md:text-4xl text-center pt-5 text-slate-100 font-bold'>Learning Accelerator for your Organization</h1>
         <p className='text-center mt-3 text-xs pl-5 pr-5 md:text-base font-semibold text-slate-300'>Accelerate the learning journey of your employees to give them knowledge of latest technologies going on in market.</p>
         
