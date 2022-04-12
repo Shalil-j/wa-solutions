@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import React ,{useState} from 'react'
-import Carousel from "react-multi-carousel"
-import "react-multi-carousel/lib/styles.css"
+import React from 'react'
+
 import l1 from '../assets/1.png'
 import l2 from '../assets/2.png'
 import l3 from '../assets/3.png'
@@ -11,52 +10,13 @@ import l5 from '../assets/5.png'
 
 
 function Section2() {
-  const [arrow,setArrow]=useState(false)
-
-
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    },
-    
-    
-  };
-
+  
   return (
-    <div className=' text-center mt-48 md:mt-0  h-60'>
+    <div className=' text-center mt-28 md:mt-0  h-auto'>
         <h1 className="uppercase text-base md:text-xl font-bold text-slate-500 mt-5">Trusted by TOP Organization</h1>
         <div className='mt-10 p-10'>
-        <Carousel responsive={responsive}
-        
-  swipeable={false}
-  draggable={false}
-  showDots={false}
-  infinite={true}
-  autoPlaySpeed={1000}
-  keyBoardControl={true}
-  customTransition="all .5"
-  transitionDuration={500}
-  containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
-  dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px"
-  arrows={arrow}
-        
-        >
+  <div className='grid grid-cols-2 gap-4 grid-flow-row
+    md:flex md:space-x-10 items-center md:justify-between'>
   <div>
     <Image
     src={l1}
@@ -97,10 +57,9 @@ function Section2() {
     alt='logo5'
     />
   </div>
-  </Carousel> 
+  </div>
 
   </div>
-  <button type='radio' className="border text-white border-gray-200 rounded-md p-2 hover:text-white hover:bg-indigo" onClick={()=>{setArrow(!arrow)}}></button>
     </div>
   )
 }

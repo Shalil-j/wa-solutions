@@ -16,6 +16,7 @@
     "lottie-web": "^5.9.1",
     "mini-css-extract-plugin": "^2.5.1",
     "next": "12.1.4",
+    "node-self": "^1.0.0-d",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-icons": "^4.3.1",
