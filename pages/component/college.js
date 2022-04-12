@@ -7,7 +7,7 @@ import Footer from '../header/footer'
 
 function College() {
   return (
-<div>
+<div  className='mx-auto'>
 <div className='lg:h-20'></div>
 <div className='lg:flex'>
 <div className='invisible lg:visible bg-fixed lg:w-3/5'>

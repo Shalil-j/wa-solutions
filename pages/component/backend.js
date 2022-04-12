@@ -2,13 +2,13 @@ import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
 import React from "react";
 import Lottie from 'react-lottie-player'
 import BE from '../assets/BE.json'
-import Sec1 from './besec1';
-import Sec2 from './fssec2';
+import Sec1 from './backendsec1';
+import Sec2 from './plan';
 import Footer from '../header/footer'
 
 function Backendjava() {
   return (
-    <div>
+    <div className='mx-auto'>
       <div className=' w-full h-16'></div>
       <div className='flex '> 
         <div className='lg:w-1/2 space-y-1 p-14 pt-20'>

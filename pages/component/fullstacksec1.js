@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+ 
 function Sec1() {
   return (
     <div className='overflow-hidden'>
