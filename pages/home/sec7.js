@@ -27,7 +27,7 @@ function Section7() {
       <div className="p-5 md:p-10">
         <div className=" bg-white bg-opacity-30 w-full p-10  rounded-3xl shadow-xl">
           <p className=' text-xl md:text-2xl text-white font-mono text-center'>Send us a message</p>
-          <form action="" className="space-y-5 p-5">
+          <form action="" className="space-y-5 sm:p-2">
             <div className=" space-y-2 md:space-y-0 md:flex md:space-x-5 ">
               <label className='flex flex-col text-white font-semibold text-sm md:text-base'>Name:<input type="text" className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-black " /></label>
 
