@@ -27,8 +27,8 @@ function Section1() {
         <h1 className="text-2xl sm:text-4xl font-extrabold text-indigo-700  md:text-5xl ">@scale</h1>
         <p className=' text-sm pl-10 pr-10 md:text-xl font-medium md:text-white text-black'>Accelerae digital transdormation journey of your new hires and lateral telent with deep tech skills</p>
         <div className="space-x-3 mt-2">
-        <button className="border-2 font-semibold text-xs   border-indigo-700 rounded-md text-white p-1 hover:text-white hover:bg-indigo-700 md:font-semibold md:text-lg md:p-3">Learn more</button>
-        <button className="border-2 font-semibold text-xs  border-indigo-700 rounded-md p-1 text-white hover:text-white hover:bg-indigo-700 md:font-semibold md:text-lg md:p-3">Talk to us </button>
+        <button className="border-2 font-semibold text-xs   border-indigo-700 rounded-md text-indigo-700 p-1 hover:text-white hover:bg-indigo-700 md:font-semibold md:text-lg md:p-3">Learn more</button>
+        <button className="border-2 font-semibold text-xs  border-indigo-700 rounded-md p-1 text-indigo-700 hover:text-white hover:bg-indigo-700 md:font-semibold md:text-lg md:p-3">Talk to us </button>
         </div>
         </div>
         
