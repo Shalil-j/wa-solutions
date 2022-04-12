@@ -2,15 +2,15 @@ import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
 import React from "react";
 import Lottie from 'react-lottie-player'
 import FS from '../assets/fs.json'
-import Sec1 from './fssec1';
-import Sec2 from './fssec2';
+import Sec1 from './fullstacksec1';
+import Sec2 from './plan';
 import Footer from '../header/footer'
 
 function Fullstackjava() {
 
 
   return (
-    <div>
+    <div className='mx-auto'>
       <div className='w-full h-16'></div>
       <div className='flex '> 
         <div className='lg:w-1/2 space-y-1 p-14 pt-20'>
